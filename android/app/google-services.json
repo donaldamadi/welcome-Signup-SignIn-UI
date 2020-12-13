@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25087064357",
+    "firebase_url": "https://typing-game-59469.firebaseio.com",
+    "project_id": "typing-game-59469",
+    "storage_bucket": "typing-game-59469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25087064357:android:1eb0a78b69153b867682cc",
+        "android_client_info": {
+          "package_name": "com.example.type_fast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25087064357-2fmir11iiiktbah6jijpu2vffk2rm645.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.type_fast",
+            "certificate_hash": "aee06b53e05381d0660f99196931052d4d1017b2"
+          }
+        },
+        {
+          "client_id": "25087064357-laps3lmhnecbq7gmn4rch5crpnkc1469.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWLN496aFwZb8xCsle1LdnHEa6sgbOuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25087064357-laps3lmhnecbq7gmn4rch5crpnkc1469.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

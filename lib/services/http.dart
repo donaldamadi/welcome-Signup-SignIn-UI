@@ -5,7 +5,7 @@ class APIService {
 
   Future<String>getData() async {
     String word;
-    String apiKey = 'e63acca36amshea9c0377e4aa282p12399ajsnae3ecd2058ac';
+    String apiKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXX';
 
     http.Response response = await http
         .get('https://wordsapiv1.p.rapidapi.com/words/?random=true', headers: {

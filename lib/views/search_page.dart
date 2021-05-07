@@ -17,7 +17,7 @@ class _SearchPageState extends State<SearchPage> {
   QuerySnapshot searchSnapshot;
 
   Widget searchList() {
-    return searchSnapshot != null
+    return searchSnapshot != null 
         ? ListView.builder(
             itemCount: searchSnapshot.docs.length,
             shrinkWrap: true,
@@ -27,7 +27,7 @@ class _SearchPageState extends State<SearchPage> {
                   userEmail: searchSnapshot.docs[index].data()['email']);
             },
           )
-        : Container(child: Text('No user with this name'),);
+        : Expanded(child: Center(child: Text('No user with this name')),);
   }
 
   initiateSearch() {
